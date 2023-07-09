@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(to bottom right, black, red, purple);
+    color: white;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
