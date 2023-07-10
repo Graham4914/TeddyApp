@@ -1,8 +1,13 @@
+html {
+    font-size: 16px;
+  }
+  
 body {
     background: linear-gradient(to bottom right, black, red, purple);
     color: white;
   }
   
+
   .container {
     height: 100vh;
     display: flex;
@@ -12,8 +17,22 @@ body {
   }
   
   h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn-primary {
+    background-color: #0693e3;
+    color: white;
+    font-size: 1.5 rem;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
   }
   
